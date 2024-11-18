@@ -1,0 +1,38 @@
+body{
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    width: 75vw;
+    font-size: 20px;
+}
+ul{
+    justify-items: left;
+}
+li{
+    text-align: left;
+}
+#lightmode{
+    display: none;
+}
+#header{
+    display: flex;
+    gap: 80px;
+}
+#light-settings{
+    align-self: center;
+    border: solid 2px lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    right: calc(100vw - (100vw - 20px));
+}
+#light-settings:hover{
+    cursor: pointer;
+    background-color: gray;
+}
