@@ -20,10 +20,6 @@ li{
 #lightmode{
     display: none;
 }
-#header{
-    display: flex;
-    gap: 80px;
-}
 #light-settings{
     align-self: center;
     border: solid 2px lightgray;
