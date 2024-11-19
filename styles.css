@@ -16,6 +16,7 @@ ul{
 }
 li{
     text-align: left;
+    font-size: 20px;
 }
 #lightmode{
     display: none;
