@@ -15,6 +15,7 @@ ul{
     justify-items: left;
 }
 li{
+    width: 75vw;
     text-align: left;
     font-size: 20px;
 }
